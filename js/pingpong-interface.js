@@ -14,8 +14,8 @@ $(document).ready(function() {
 
   $("form#calculator").submit(function(event) {
   event.preventDefault();
-  var number1 = parseInt($("#input1").val());
-  var number2 = parseInt($("#input2").val());
+  var number1 = parseFloat($("#input1").val());
+  var number2 = parseFloat($("#input2").val());
   var operator = $("input:radio[name=operator]:checked").val();
 
 
