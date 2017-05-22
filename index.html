@@ -25,7 +25,50 @@
           <button class="btn-success" type="submit">Submit</button>
         </div>
       </form>
-      <ul id="solution"></ul>
+      <!-- <ul id="solution"></ul> -->
     </div>
+
+
+    <div class="row">
+     <div class="well">
+       <form id="calculator">
+         <div class="form-group">
+           <label for="input1">First Number</label>
+           <input id="input1" class="form-control" type="text">
+         </div>
+         <div class="form-group">
+           <label for="input2">First Number</label>
+           <input id="input2" class="form-control" type="text">
+         </div>
+         <div class="radio">
+           <label>
+             <input type="radio" name="operator" value="add">
+             Add
+           </label>
+         </div>
+         <div class="radio">
+           <label>
+             <input type="radio" name="operator" value="subtract" checked>
+             Subtract
+           </label>
+         </div>
+         <div class="radio">
+           <label>
+             <input type="radio" name="operator" value="multiply">
+             Multiply
+           </label>
+         </div>
+         <div class="radio">
+           <label>
+             <input type="radio" name="operator" value="divide">
+             Divide
+           </label>
+         </div>
+         <button type="submit" class="btn btn-success">Math!</button>
+         <h3 id="solution"></h3>
+       </form>
+
+     </div>
+   </div>
   </body>
 </html>
